@@ -10,6 +10,7 @@ billamt.send_keys(100)
 s = driver.find_element(by="xpath", value="//*[@id=\"serviceQual\"]/option[5]")
 s.click()
 
+# stam adding shit for git to notice
 peopleamt = driver.find_element(by="id", value="peopleamt")
 peopleamt.send_keys(5)
 
